@@ -1,0 +1,263 @@
+{
+  "exp1": {
+    "mean_salary": 84690.0,
+    "max_salary": 120000,
+    "max_sal_dept": "IT",
+    "dept_counts": {
+      "Marketing": 21,
+      "HR": 18,
+      "IT": 16,
+      "Operations": 15,
+      "Finance": 15,
+      "Sales": 15
+    },
+    "gender": {
+      "Female": 38,
+      "Male": 62
+    },
+    "dept_max_sal": {
+      "Finance": 120000,
+      "HR": 111000,
+      "IT": 120000,
+      "Marketing": 110000,
+      "Operations": 116000,
+      "Sales": 102000
+    },
+    "dept_avg_exp": {
+      "Finance": 12.6,
+      "HR": 10.67,
+      "IT": 10.38,
+      "Marketing": 12.19,
+      "Operations": 13.2,
+      "Sales": 10.53
+    },
+    "above_avg_cnt": 50,
+    "corr_exp_sal": 0.404,
+    "top5": [
+      {
+        "Name": "Ananya28",
+        "Department": "IT",
+        "Salary": 120000
+      },
+      {
+        "Name": "Priya70",
+        "Department": "Finance",
+        "Salary": 120000
+      },
+      {
+        "Name": "Meera78",
+        "Department": "Operations",
+        "Salary": 116000
+      },
+      {
+        "Name": "Kabir29",
+        "Department": "HR",
+        "Salary": 111000
+      },
+      {
+        "Name": "Ananya52",
+        "Department": "Marketing",
+        "Salary": 110000
+      }
+    ]
+  },
+  "exp2": {
+    "upper": 18,
+    "punct": 34,
+    "digits": 15,
+    "spaces": 89,
+    "n_sents": 8,
+    "n_words_re": 127,
+    "n_stopwords": 25,
+    "n_filtered": 102
+  },
+  "exp3": {
+    "emails": [
+      "coordinator@upes.ac.in",
+      "somansh.goel@gmail.com"
+    ],
+    "urls": [
+      "https://www.upes.ac.in",
+      "https://github.com/Somansh1."
+    ],
+    "phones": [
+      "+91-9876543210",
+      "9123456789"
+    ],
+    "hashtags": [
+      "#CLNLP",
+      "#Python",
+      "#MachineLearning"
+    ],
+    "mentions_naive": [
+      "@upes",
+      "@gmail",
+      "@UPESDehradun",
+      "@AI_RoboticsLab"
+    ],
+    "mentions_fixed": [
+      "@UPESDehradun",
+      "@AI_RoboticsLab"
+    ]
+  },
+  "exp4": {
+    "tfidf_top": {
+      "Doc 1": [
+        [
+          "a",
+          0.1221
+        ],
+        [
+          "field",
+          0.1221
+        ],
+        [
+          "artificial",
+          0.0451
+        ],
+        [
+          "intelligence",
+          0.0451
+        ],
+        [
+          "is",
+          0.0451
+        ]
+      ],
+      "Doc 2": [
+        [
+          "computers",
+          0.1373
+        ],
+        [
+          "helps",
+          0.1373
+        ],
+        [
+          "human",
+          0.1373
+        ],
+        [
+          "understand",
+          0.1373
+        ],
+        [
+          "language",
+          0.1014
+        ]
+      ],
+      "Doc 3": [
+        [
+          "an",
+          0.1221
+        ],
+        [
+          "important",
+          0.1221
+        ],
+        [
+          "learning",
+          0.1221
+        ],
+        [
+          "machine",
+          0.1221
+        ],
+        [
+          "part",
+          0.1221
+        ]
+      ]
+    }
+  },
+  "exp5": {
+    "top_bpe_merges": [
+      "ng",
+      "s</w>",
+      "e</w>",
+      "de",
+      "la",
+      "lang",
+      "langu",
+      "langua"
+    ],
+    "cbow_sims": [
+      0.4218,
+      0.4405,
+      0.1124
+    ],
+    "sg_sims": [
+      0.5612,
+      0.5834,
+      0.164
+    ]
+  },
+  "exp6": {
+    "V": 37,
+    "tokens": 68,
+    "loss_start": 6.4087,
+    "loss_end": 3.6792,
+    "king_sims": [
+      [
+        "the",
+        0.6556
+      ],
+      [
+        "kingdom",
+        0.3219
+      ],
+      [
+        "queen",
+        0.3159
+      ],
+      [
+        "royal",
+        0.2856
+      ],
+      [
+        "and",
+        0.2657
+      ],
+      [
+        "learning",
+        0.2012
+      ]
+    ],
+    "bi_natural": [
+      [
+        "language",
+        0.1026
+      ],
+      [
+        "<s>",
+        0.0256
+      ],
+      [
+        "natural",
+        0.0256
+      ],
+      [
+        "processing",
+        0.0256
+      ]
+    ],
+    "tri_nat_lang": [
+      [
+        "processing",
+        0.1026
+      ],
+      [
+        "<s>",
+        0.0256
+      ],
+      [
+        "natural",
+        0.0256
+      ],
+      [
+        "language",
+        0.0256
+      ]
+    ]
+  }
+}
